@@ -1,0 +1,70 @@
+# Installation Mysql Fedora FC27
+## Installation
+```sql
+su -
+## OR ##
+sudo -i
+
+## Fedora 27 ##
+dnf install https://dev.mysql.com/get/mysql57-community-release-fc27-10.noarch.rpm
+
+## Fedora 26 ##
+dnf install https://dev.mysql.com/get/mysql57-community-release-fc26-10.noarch.rpm
+
+## Fedora 25 ##
+dnf install https://dev.mysql.com/get/mysql57-community-release-fc25-10.noarch.rpm
+
+```
+
+## Update or Install MySQL 5.7.21
+```sql
+dnf install mysql-community-server
+```
+
+## Update or Install MySQL 8.0.4
+```sql
+dnf --enablerepo=mysql80-community install mysql-community-server
+```
+
+##  Start MySQL server and autostart MySQL on boot
+```sql
+systemctl start mysqld.service ## use restart after update
+
+systemctl enable mysqld.service
+```
+
+## Get Your Generated Random root Password
+```sql
+grep 'A temporary password is generated for root@localhost' /var/log/mysqld.log |tail -1
+```
+
+## MySQL Secure Installation
+
+1. Change root password
+2. Remove anonymous users
+3. Disallow root login remotely
+4. Remove test database and access to it
+5. Reload privilege tables
+
+```sql
+/usr/bin/mysql_secure_installation
+```
+
+## start service 
+```sql
+sudo systemctl start mysqld.service
+```
+
+## Connect to MySQL database (localhost) with password
+```sql
+mysql -u root -p
+
+## OR ##
+mysql -h localhost -u root -p
+```
+
+
+
+## Reference : 
+1. https://www.if-not-true-then-false.com/2010/install-mysql-on-fedora-centos-red-hat-rhel/
+2. https://www.quora.com/How-can-I-start-MySQL-on-Fedora
