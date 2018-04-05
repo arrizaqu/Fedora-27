@@ -17,7 +17,7 @@
 2. https://wireless.wiki.kernel.org/en/users/drivers/iwlwifi
 
 ## WICD Wifi
-### Intallation 
+### Installation 
 ```command
 yum install wicd wicd-common wicd-gtk
 yum remove NetworkManager //optional if you confident nothing error.
