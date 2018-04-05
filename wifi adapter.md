@@ -1,10 +1,14 @@
 # Installation Adapter 
 1. iwlwifi 
+   * Installation Driver
 2. WICD wifi
-3. manual loading wifi
-  * show all wifi id
-  * connet wifi id
-  * stop wifi 
+   * Installation
+   * Disable NetworkManager and Enable Wicd
+   
+3. Manual loading wifi
+   * Show all wifi ssid
+   * Connet wifi ssid
+   * Stop wifi 
 4. Semi GUI NMTUI
 
 ## IWLWIFI
