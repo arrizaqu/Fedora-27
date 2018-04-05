@@ -5,6 +5,7 @@
   * show all wifi id
   * connet wifi id
   * stop wifi 
+4. Semi GUI NMTUI
 
 ## Manual loading wifi 
 ### show all wifi SSID
@@ -27,3 +28,9 @@ nmcli con up id 'ETG XSIS'
 ```command
 nmcli con down id 'ETG XSIS'
 ```
+
+## Semi GUI NMTUI
+```command
+nmtui
+```
+
