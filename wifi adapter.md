@@ -8,8 +8,9 @@
 4. Semi GUI NMTUI
 
 ## IWLWIFI
-### Installation 
-
+### Installation Driver
+1. https://github.com/torvalds/linux/tree/master/drivers/net/wireless/intel/iwlwifi
+2. https://wireless.wiki.kernel.org/en/users/drivers/iwlwifi
 
 ## WICD Wifi
 ### Intallation 
