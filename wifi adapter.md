@@ -5,7 +5,7 @@
    * Installation
    * Disable NetworkManager and Enable Wicd
    
-3. Manual loading wifi
+3. Manual loading wifi from command
    * Show all wifi ssid
    * Connet wifi ssid
    * Stop wifi 
@@ -29,7 +29,7 @@ service wicd start
 ```
 Search Linux menu 'Wicd Network Manager'
 
-## Manual loading wifi 
+## Manual loading wifi from command
 ### show all wifi SSID
 ```command
 nmcli -p dev wifi
