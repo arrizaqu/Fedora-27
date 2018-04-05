@@ -11,6 +11,10 @@
 ```command
 nmcli -p dev wifi
 ```
+or 
+```command
+nmcli d wifi list
+```
 
 ### connect wifi SSID
 * example : 
