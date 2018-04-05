@@ -7,6 +7,10 @@
   * stop wifi 
 4. Semi GUI NMTUI
 
+## IWLWIFI
+### Installation 
+
+
 ## WICD Wifi
 ### Intallation 
 ```command
@@ -47,3 +51,8 @@ nmcli con down id 'ETG XSIS'
 nmtui
 ```
 
+## Contact Email 
+arrizaqu@yahoo.com
+
+## Reference 
+1. https://ask.fedoraproject.org/en/question/8274/unstable-wireless-connection/
