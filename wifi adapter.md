@@ -7,12 +7,12 @@
 
 ## manual loading wifi 
 ### show all wifi SSID
-```bash
+```command
 nmcli -p dev wifi
 ```
 
 ### connect wifi SSID
 * example : 
-```bash
+```command
 nmcli con up id 'ETG XSIS'
 ```
