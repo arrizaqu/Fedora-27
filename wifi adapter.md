@@ -4,8 +4,9 @@
 3. manual loading wifi
   * show all wifi id
   * connet wifi id
+  * stop wifi 
 
-## manual loading wifi 
+## Manual loading wifi 
 ### show all wifi SSID
 ```command
 nmcli -p dev wifi
@@ -15,4 +16,10 @@ nmcli -p dev wifi
 * example : 
 ```command
 nmcli con up id 'ETG XSIS'
+```
+
+### stop connection wifi SSID
+* example 
+```command
+nmcli con down id 'ETG XSIS'
 ```
