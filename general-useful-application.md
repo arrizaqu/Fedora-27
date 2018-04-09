@@ -1,8 +1,9 @@
-# First Installed
+# Useful Application 
+## Session
 1. Install Google Chrome
 2. Install Theme MACOS
 
-## Install Google Chrome
+### Install Google Chrome
 Open terminal 
 ```java
 cat << EOF > /etc/yum.repos.d/google-chrome.repo
@@ -16,7 +17,8 @@ EOF
 
 dnf install google-chrome-stable
 ```
-2. Install Theme MacOS
+
+### Install Theme MacOS
 * Package Icon
   * read more : https://github.com/keeferrourke/la-capitaine-icon-theme
   * Installation
